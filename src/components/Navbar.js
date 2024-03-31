@@ -13,28 +13,16 @@ export default class Navbar extends Component {
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</Link>
-                            <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" aria-current="page" to="/">Home</Link></li>
-                                <li><hr className="dropdown-divider"/></li>
-                                <li><Link className="dropdown-item" aria-current="page"  to="/sport">Sports</Link></li>
-                                <li><hr className="dropdown-divider"/></li>
-                                <li><Link className="dropdown-item" aria-current="page" to="/">Weather</Link></li>
-                                <li><hr className="dropdown-divider"/></li>
-                                <li><Link className="dropdown-item" aria-current="page"  to="/sport">Lifestyle</Link></li>
-                                <li><hr className="dropdown-divider"/></li>
-                                <li><Link className="dropdown-item" aria-current="page" to="/">Health</Link></li>
-                                <li><hr className="dropdown-divider"/></li>
-                                <li><Link className="dropdown-item" aria-current="page"  to="/sport">Society</Link></li>
-                                <li><hr className="dropdown-divider"/></li>
-                                <li><Link className="dropdown-item" aria-current="page" to="/">Business</Link></li>
-                                <li><hr className="dropdown-divider"/></li>
-                                <li><Link className="dropdown-item" aria-current="page"  to="/sport">Technology</Link></li>
-                            </ul>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/">Home</Link></li>
+                        <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/sport">Sports</Link></li>
+                        <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/weather">Weather</Link></li>
+                        <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/lifestyle">Lifestyle</Link></li>
+                        <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/health">Health</Link></li>
+                        <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/society">Society</Link></li>
+                        <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/business">Business</Link></li>
+                        <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/technology">Technology</Link></li>
                     </ul>
                 </div>
             </div>
